@@ -1,0 +1,6 @@
+﻿namespace DeakinOpenDay
+{
+	class SaveButton
+	{
+	}
+}
