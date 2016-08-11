@@ -28,8 +28,8 @@ namespace MapDemo
 			map.Bounds = View.Bounds;
 
 			// set map center and region
-			const double lat = 42.374260;
-			const double lon = -71.120824;
+			const double lat = -37.847486;
+			const double lon = 145.114602;
 			var mapCenter = new CLLocationCoordinate2D(lat, lon);
 			var mapRegion = MKCoordinateRegion.FromDistance(mapCenter, 2000, 2000);
 			map.CenterCoordinate = mapCenter;
@@ -38,8 +38,8 @@ namespace MapDemo
 			// add an annotation
 			map.AddAnnotation(new MKPointAnnotation
 			{
-				Title = "MyAnnotation",
-				Coordinate = new CLLocationCoordinate2D(42.364260, -71.120824)
+				Title = "Deakin University",
+				Coordinate = new CLLocationCoordinate2D(-37.847486, 145.114602)
 			});
 
 			// set the map delegate
