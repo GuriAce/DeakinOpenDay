@@ -14,20 +14,8 @@ namespace DeakinOpenDay
     [Register ("FeedBackViewController2")]
     partial class FeedBackViewController2
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton Feedback { get; set; }
-
-        [Action ("Feedback_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void Feedback_TouchUpInside (UIKit.UIButton sender);
-
         void ReleaseDesignerOutlets ()
         {
-            if (Feedback != null) {
-                Feedback.Dispose ();
-                Feedback = null;
-            }
         }
     }
 }
