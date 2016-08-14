@@ -98,6 +98,22 @@
     <ImageAsset Include="Assets.xcassets\Second.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Second.imageset\vector.pdf" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-Small-40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-Small-40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-Small-50.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-Small-50%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-72.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-72%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-76%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-167.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-Small.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-Small%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-Small%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -140,6 +156,7 @@
     <BundleResource Include="Resources\deakin-logo-Keyline.jpg" />
     <BundleResource Include="Resources\Button-Normal%402x.png" />
     <BundleResource Include="Resources\2014-06-05 08.17.03-1.jpg" />
+    <BundleResource Include="Resources\Background-568h%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

@@ -14,8 +14,17 @@ namespace DeakinOpenDay
     [Register ("FeedBackViewController2")]
     partial class FeedBackViewController2
     {
-        void ReleaseDesignerOutlets ()
-        {
-        }
+        [Outlet]
+		[GeneratedCode("iOS Designer", "1.0")]
+		UIButton sendButton { get; set; }
+
+		void ReleaseDesignerOutlets()
+		{
+			if (sendButton != null)
+			{
+				sendButton.Dispose();
+				sendButton = null;
+			}
+		}
     }
 }
